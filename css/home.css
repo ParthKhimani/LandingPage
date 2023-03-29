@@ -1,0 +1,167 @@
+body {
+    padding-top: 0px;
+    padding-left: 0px;
+}
+
+.navbar {
+    height: 52px;
+}
+
+.logo img {
+    float: left;
+    padding-left: 115px;
+    padding-top: 7px;
+}
+
+.navbarRight ul {
+    float: right;
+    padding-right: 154px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background: url('../images/Image\ Group.png') no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.header {
+    color: rgb(202, 56, 56);
+    font-size: larger;
+    font-weight: 900;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+}
+
+.para {
+    color: white;
+    width: 63%;
+    text-align: center;
+}
+
+button {
+    background: linear-gradient(#EB3F57, #893944);
+    color: white;
+    border-radius: 14px;
+    border: none;
+    padding: 8px 12px;
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+}
+
+.grey-shadow {
+    background: linear-gradient(#EB3F57, #893944);
+    color: white;
+    border-radius: 14px;
+    border: none;
+    padding: 8px 12px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+h3 {
+    padding: 0px 15px;
+}
+
+h1 {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    width: 130px;
+}
+
+p {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+}
+
+.red {
+    color: rgb(202, 56, 56);
+    font-size: larger;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.content {
+    padding: 28px 66px;
+    display: flex;
+}
+
+.data-left {
+    width: 50%;
+    padding: 15px;
+}
+
+.data-left p {
+    width: 75%;
+    font-size: small;
+}
+
+.image {
+    width: 50%;
+    height: 80%;
+    padding-top: 127px;
+}
+
+.image img {
+    height: 100%;
+    width: 100%;
+}
+
+.data-right {
+    width: 50%;
+    padding: 15px;
+    text-align: right;
+    font-size: small;
+    margin-left: 21px;
+}
+
+.container1 {
+    display: flex;
+    text-align: left;
+}
+
+.container2 {
+    display: flex;
+    text-align: left;
+}
+
+.data-para {
+    display: flex;
+    flex-direction: column;
+}
+
+.build-future {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    padding: 0px 15px;
+}
+
+.rightHeader{
+    padding-left: 446px;
+}
